@@ -35,18 +35,21 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
         ],
         [
+            InlineKeyboardButton(text="🍁 sᴜᴩᴩᴏʀᴛ 🍁", url=f"{config.SUPPORT_GROUP}"
             InlineKeyboardButton(
-                text="❄️ ʜᴇʟᴩ ❄️", callback_data="settings_back_helper"
+                text="✨ ᴜᴘᴅᴀᴛᴇ ✨", url=f"{config.SUPPORT_CHANNEL}"
             ),
+        ],
+        [
             InlineKeyboardButton(
-                text="🍁 sᴜᴩᴩᴏʀᴛ 🍁", url=f"{config.SUPPORT_GROUP}"
+                text="❄️ ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs ❄️", callback_data="settings_back_helper"
             ),
         ],
         [
             InlineKeyboardButton(text="🥀 ᴍᴀɪɴᴛᴀɪɴᴇʀ 🥀", user_id=OWNER),
             ),
             InlineKeyboardButton(
-                text="✨ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ✨", url=f"https://telegra.ph/file/9b0455dae14d5639f936d.mp4"
+                text="🕊️ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🕊️", url=f"https://telegra.ph/file/9b0455dae14d5639f936d.mp4"
             )
         ],
      ]
